@@ -33,29 +33,29 @@ interface Transaction {
 }
 
 const iphones: iPhone[] = [
-  { id: '1', name: 'iPhone 12 mini', model: '12 mini', storage: '64GB', price: 54990, color: 'Синий', image: '📱' },
-  { id: '2', name: 'iPhone 12 mini', model: '12 mini', storage: '128GB', price: 59990, color: 'Черный', image: '📱' },
-  { id: '3', name: 'iPhone 12', model: '12', storage: '128GB', price: 64990, color: 'Белый', image: '📱' },
-  { id: '4', name: 'iPhone 12 Pro', model: '12 Pro', storage: '256GB', price: 89990, color: 'Графитовый', image: '📱' },
-  { id: '5', name: 'iPhone 12 Pro Max', model: '12 Pro Max', storage: '512GB', price: 109990, color: 'Золотой', image: '📱' },
-  { id: '6', name: 'iPhone 13 mini', model: '13 mini', storage: '128GB', price: 64990, color: 'Розовый', image: '📱' },
-  { id: '7', name: 'iPhone 13', model: '13', storage: '256GB', price: 74990, color: 'Синий', image: '📱' },
-  { id: '8', name: 'iPhone 13 Pro', model: '13 Pro', storage: '512GB', price: 109990, color: 'Серебристый', image: '📱' },
-  { id: '9', name: 'iPhone 13 Pro Max', model: '13 Pro Max', storage: '1TB', price: 139990, color: 'Графитовый', image: '📱' },
-  { id: '10', name: 'iPhone 14', model: '14', storage: '256GB', price: 84990, color: 'Фиолетовый', image: '📱' },
-  { id: '11', name: 'iPhone 14 Plus', model: '14 Plus', storage: '512GB', price: 99990, color: 'Синий', image: '📱' },
-  { id: '12', name: 'iPhone 14 Pro', model: '14 Pro', storage: '512GB', price: 119990, color: 'Темно-фиолетовый', image: '📱' },
-  { id: '13', name: 'iPhone 14 Pro Max', model: '14 Pro Max', storage: '1TB', price: 149990, color: 'Золотой', image: '📱' },
-  { id: '14', name: 'iPhone 15', model: '15', storage: '256GB', price: 89990, color: 'Розовый', image: '📱' },
-  { id: '15', name: 'iPhone 15 Plus', model: '15 Plus', storage: '512GB', price: 104990, color: 'Черный', image: '📱' },
-  { id: '16', name: 'iPhone 15 Pro', model: '15 Pro', storage: '512GB', price: 129990, color: 'Титановый', image: '📱' },
-  { id: '17', name: 'iPhone 15 Pro Max', model: '15 Pro Max', storage: '1TB', price: 159990, color: 'Натуральный титан', image: '📱' },
-  { id: '18', name: 'iPhone 16', model: '16', storage: '256GB', price: 94990, color: 'Ультрамарин', image: '📱' },
-  { id: '19', name: 'iPhone 16 Plus', model: '16 Plus', storage: '512GB', price: 109990, color: 'Розовый', image: '📱' },
-  { id: '20', name: 'iPhone 16 Pro', model: '16 Pro', storage: '1TB', price: 149990, color: 'Титановый пустынный', image: '📱' },
-  { id: '21', name: 'iPhone 16 Pro Max', model: '16 Pro Max', storage: '1TB', price: 169990, color: 'Титановый черный', image: '📱' },
-  { id: '22', name: 'iPhone 17 Pro', model: '17 Pro', storage: '1TB', price: 159990, color: 'Титановый синий', image: '📱' },
-  { id: '23', name: 'iPhone 17 Pro Max', model: '17 Pro Max', storage: '2TB', price: 199990, color: 'Титановый', image: '📱' },
+  { id: '1', name: 'iPhone 12 mini', model: '12 mini', storage: '64GB', price: 54990, color: 'Синий', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '2', name: 'iPhone 12 mini', model: '12 mini', storage: '128GB', price: 59990, color: 'Черный', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '3', name: 'iPhone 12', model: '12', storage: '128GB', price: 64990, color: 'Белый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '4', name: 'iPhone 12 Pro', model: '12 Pro', storage: '256GB', price: 89990, color: 'Графитовый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '5', name: 'iPhone 12 Pro Max', model: '12 Pro Max', storage: '512GB', price: 109990, color: 'Золотой', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '6', name: 'iPhone 13 mini', model: '13 mini', storage: '128GB', price: 64990, color: 'Розовый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '7', name: 'iPhone 13', model: '13', storage: '256GB', price: 74990, color: 'Синий', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '8', name: 'iPhone 13 Pro', model: '13 Pro', storage: '512GB', price: 109990, color: 'Серебристый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '9', name: 'iPhone 13 Pro Max', model: '13 Pro Max', storage: '1TB', price: 139990, color: 'Графитовый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/871a4a5d-a681-4a6b-9798-5e88d6f840f1.jpg' },
+  { id: '10', name: 'iPhone 14', model: '14', storage: '256GB', price: 84990, color: 'Фиолетовый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '11', name: 'iPhone 14 Plus', model: '14 Plus', storage: '512GB', price: 99990, color: 'Синий', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '12', name: 'iPhone 14 Pro', model: '14 Pro', storage: '512GB', price: 119990, color: 'Темно-фиолетовый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '13', name: 'iPhone 14 Pro Max', model: '14 Pro Max', storage: '1TB', price: 149990, color: 'Золотой', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '14', name: 'iPhone 15', model: '15', storage: '256GB', price: 89990, color: 'Розовый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '15', name: 'iPhone 15 Plus', model: '15 Plus', storage: '512GB', price: 104990, color: 'Черный', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '16', name: 'iPhone 15 Pro', model: '15 Pro', storage: '512GB', price: 129990, color: 'Титановый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '17', name: 'iPhone 15 Pro Max', model: '15 Pro Max', storage: '1TB', price: 159990, color: 'Натуральный титан', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/67d10da9-9270-4ac2-9b7b-269f76e1c4ea.jpg' },
+  { id: '18', name: 'iPhone 16', model: '16', storage: '256GB', price: 94990, color: 'Ультрамарин', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/1f597010-1673-48df-ae04-c975a9aba0b5.jpg' },
+  { id: '19', name: 'iPhone 16 Plus', model: '16 Plus', storage: '512GB', price: 109990, color: 'Розовый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/1f597010-1673-48df-ae04-c975a9aba0b5.jpg' },
+  { id: '20', name: 'iPhone 16 Pro', model: '16 Pro', storage: '1TB', price: 149990, color: 'Титановый пустынный', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/1f597010-1673-48df-ae04-c975a9aba0b5.jpg' },
+  { id: '21', name: 'iPhone 16 Pro Max', model: '16 Pro Max', storage: '1TB', price: 169990, color: 'Титановый черный', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/1f597010-1673-48df-ae04-c975a9aba0b5.jpg' },
+  { id: '22', name: 'iPhone 17 Pro', model: '17 Pro', storage: '1TB', price: 159990, color: 'Титановый синий', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/1f597010-1673-48df-ae04-c975a9aba0b5.jpg' },
+  { id: '23', name: 'iPhone 17 Pro Max', model: '17 Pro Max', storage: '2TB', price: 199990, color: 'Титановый', image: 'https://cdn.poehali.dev/projects/d635dfbb-10a5-4589-bc0a-019902e3fe10/files/1f597010-1673-48df-ae04-c975a9aba0b5.jpg' },
 ];
 
 const Index = () => {
@@ -154,8 +154,12 @@ const Index = () => {
                   onClick={() => setSelectedPhone(phone)}
                 >
                   <div className="p-6 space-y-4">
-                    <div className="text-6xl text-center mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                      {phone.image}
+                    <div className="h-48 flex items-center justify-center mb-4 overflow-hidden">
+                      <img 
+                        src={phone.image} 
+                        alt={phone.name}
+                        className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300"
+                      />
                     </div>
                     
                     <div className="space-y-2">
@@ -305,7 +309,13 @@ const Index = () => {
           
           {selectedPhone && (
             <div className="space-y-6 py-4">
-              <div className="text-8xl text-center py-8">{selectedPhone.image}</div>
+              <div className="h-64 flex items-center justify-center py-8">
+                <img 
+                  src={selectedPhone.image} 
+                  alt={selectedPhone.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
               
               <div className="space-y-4">
                 <div>
@@ -415,7 +425,13 @@ const Index = () => {
                   <Card key={item.id} className="glass-effect p-4">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-4">
-                        <div className="text-4xl">{item.image}</div>
+                        <div className="w-16 h-16 flex-shrink-0">
+                          <img 
+                            src={item.image} 
+                            alt={item.name}
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
                         <div>
                           <p className="font-semibold">{item.name}</p>
                           <p className="text-sm text-muted-foreground">
